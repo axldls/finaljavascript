@@ -1,0 +1,64 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConversorDLS</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script  defer  src="/JS/arrays.js"></script>
+    <script  defer  src="/JS/conversor.js"></script>
+    <script  defer  src="/JS/moneda.js"></script>
+    <script  defer  src="/JS/variables.js"></script>
+    <script  defer  src="alert.js"></script>
+    <script defer  src="/JS/fecth.js"></script>
+</head>
+
+<body>
+
+    -<div class="formulario">
+        <h1 class="titulo">Conversor de Moneda</h1>
+        <form id="miBoton">
+            <p class="parrafo">Selecione el tipo de moneda a cambiar en $ARS</p>
+            <p class="ingress">Ingrese el monto a cambiar </p>
+            <input type="number" id="valor" class="d1">
+            <div>
+                <input type="submit" class="boton" id="submit">
+           </div>
+
+        </form>
+    </div>
+    <section class="moneda">
+        <form>
+            <input type="radio" name="cambio" id="uno">Dolar
+            <input type="radio" name="cambio" id="dos">Euro
+        </form>
+    </section>
+
+    <section>
+        <form>
+            
+            <input  type="text"  class="box" placeholder="Ingrese Nombre de moneda" id="inputNombre">
+            <input type="tel" class="box1" placeholder="Ingrese Valor De Nueva Moneda" id="inputValor">
+        </form>
+        <div>
+            <input type="submit" class="boton2" id="botonN2" value="Cargar Moneda ">
+        </div>
+    </section>
+    <section>
+
+        <div class="caja0">
+            <a href="#" id="jsonBtn" class="Button">Valor Actual de Monedas Disponibles</a>
+        </div>
+        <div id="resultado" class="Button2"></div>
+    </section>
+  
+
+
+
+</body>
+
+</html>

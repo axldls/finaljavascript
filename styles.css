@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(82, 82, 194);
+}
+.titulo{
+    background: white;
+    color: rgb(10, 10, 10);
+   border-radius: 20px;
+    text-align: center; 
+    position: absolute;
+    top: 10px;
+    right: 37%;
+    font-size: 40px;
+   
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background: white;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+ 
+.monto{
+    position: relative;
+    bottom: 4%;
+    right: -10%;
+    width: 80%;
+    height: 30%;
+    margin-right: 0%;
+}
+ 
+.boton{
+    width: 100%;
+    height: 32%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    background-color: rgb(82, 82, 194);
+    color:white;
+    border-radius: 5px;
+}
+.parrafo{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    color:black;
+    height: 5%; 
+    text-align: center;
+    position: absolute;
+    top: 10%;
+
+
+    
+}
+
+.radio2{
+    display: inline-block;
+     
+}
+
+.moneda{
+    position: absolute;
+    right: 46%;
+    top: 20%;
+    
+    
+}
+
+.d1{
+    height: 20%;
+    width: 100%;
+    font-size:15px;
+}
+
+
+.bit{
+    position: absolute;
+    right: 37%;
+    bottom: 29%;
+    width: 26%;
+}
+.ingress{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+width: 26%;
+height: 5%;
+    position: absolute;
+right: 37%;
+top: 330px;
+
+}
+
+.box1{
+    width: 26%;
+    height: 5%;
+    position: absolute;
+    right: 37%;
+    top: 380px;
+    
+    }
+
+    .boton2{
+        position: absolute;
+        right: 37%;
+        top: 65%;
+        width: 26%;
+        color: white;
+        background-color: rgb(82, 82, 194);
+    }
+
+    .caja0{
+        background-color: black;
+        width: 30%;
+        position: absolute;
+        top: 5%;
+        right: 67%;
+       
+    }
+
+    .Button{
+        color: white;
+        font-size: 150%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .Button2{
+        background-color: black;
+        color: white;
+        width: 30%;
+        position: absolute;
+        top: 10%;
+        right: 67%;
+        
+    }

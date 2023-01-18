@@ -1,0 +1,11 @@
+[
+    {
+        "titulo" : "Valor Actual de Dolar",
+         "valor":  "$182"
+
+    },
+    {
+        "titulo" :"Valor Actual de Euro",
+        "valor":"$197"
+    }
+]
